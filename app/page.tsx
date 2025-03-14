@@ -12,6 +12,7 @@ import TestimonialCard from "@/components/testimonial-card"
 import ServiceCard from "@/components/service-card"
 import AnimatedCounter from "@/components/animated-counter"
 import AnimatedBackground from "@/components/animated-background"
+import Head from "next/head"
 
 export default function Home() {
   const [isVisible, setIsVisible] = useState(false)
@@ -40,6 +41,27 @@ export default function Home() {
   }
 
   return (
+    <>
+
+ 
+<Head>
+        <title>Anoj Kumar Mandal - LIC Insurance Agent | anoj.amancodes.com</title>
+        <meta name="description" content="Anoj Kumar Mandal, a trusted LIC insurance agent in Mumbai, offers life, health, and retirement plans. Contact me at anoj.amancodes.com." />
+        <meta name="keywords" content="LIC insurance, life insurance Mumbai, health insurance, retirement plans, Anoj Kumar Mandal, insurance agent" />
+        <meta name="author" content="Anoj Kumar Mandal" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:title" content="Anoj Kumar Mandal - LIC Insurance Agent" />
+        <meta property="og:description" content="Secure your future with personalized insurance solutions from Anoj Kumar Mandal, LIC agent in Mumbai." />
+        <meta property="og:url" content="https://anoj.amancodes.com" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://anoj.amancodes.com/img3.png" /> {/* Update with actual image URL */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Anoj Kumar Mandal - LIC Insurance Agent" />
+        <meta name="twitter:description" content="Personalized insurance solutions by Anoj Kumar Mandal, LIC agent in Mumbai." />
+        <meta name="twitter:image" content="https://anoj.amancodes.com/img3.png" /> {/* Update with actual image URL */}
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="canonical" href="https://anoj.amancodes.com" />
+      </Head>
     <div className="flex flex-col min-h-screen">
       {/* Header */}
       <header className="sticky top-0 z-10 bg-white/90 backdrop-blur-sm border-b">
@@ -634,6 +656,7 @@ export default function Home() {
         </div>
       </footer>
     </div>
+    </>
   )
 }
 
