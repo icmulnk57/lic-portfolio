@@ -440,7 +440,7 @@ export default function Home() {
                           </div>
                           <div>
                             <p className="font-medium">Phone</p>
-                            <p className="text-sm text-gray-500">9867993457</p>
+                            <p className="text-sm text-gray-500" >+91 9867993977</p>
                           </div>
                         </motion.div>
                         <motion.div
@@ -453,7 +453,7 @@ export default function Home() {
                           </div>
                           <div>
                             <p className="font-medium">Email</p>
-                            <p className="text-sm text-gray-500">mandalamankumar.57@gmail.com</p>
+                            <a className="text-sm text-gray-500" href="mailto:mandalamankumar.57@gmail.com">mandalamankumar.57@gmail.com</a>
                           </div>
                         </motion.div>
                         <motion.div
